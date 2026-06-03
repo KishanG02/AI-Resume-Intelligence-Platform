@@ -1,0 +1,16 @@
+Dear Hiring Manager,
+
+I am excited to apply for the Generative AI Engineer position, where I can leverage my expertise in building scalable AI pipelines and driving enterprise AI integration. With a strong foundation in Python, I am confident in my ability to design and develop innovative solutions that meet the requirements of this role.
+
+As a results-driven Generative AI Engineer with hands-on experience in Large Language Models (LLMs), Hugging Face Transformers, and Python, I am well-equipped to tackle the challenges of this position. My experience with OpenAI API, LangChain, and LlamaIndex has enabled me to develop AI workflows that drive business value. I am proficient in developing AI-powered solutions, with a solid understanding of Machine Learning, Deep Learning, and NLP concepts.
+
+I am particularly drawn to this role because of the opportunity to work with cutting-edge technologies, including OpenAI, Hugging Face Transformers, and LangChain. My experience with APIs, model fine-tuning, embeddings, and vector databases has prepared me to make significant contributions to your team. Additionally, my knowledge of cloud platforms, including AWS and GCP, and deployment pipelines using Docker and CI/CD will enable me to seamlessly integrate with your existing infrastructure.
+
+One of my notable projects, the LLM-Powered IT Incident Summarizer, demonstrates my ability to develop innovative solutions using GenAI. By leveraging LangChain and OpenAI API, I automated root cause analysis and structured summary generation from raw incident logs, reducing manual effort and enabling faster resolution cycles. This project showcases my expertise in developing AI-powered solutions that drive business value.
+
+I am excited about the opportunity to bring my skills and experience to your team and contribute to the development of innovative AI solutions. Thank you for considering my application. I would welcome the opportunity to discuss my qualifications further and explore how I can make a meaningful impact in this role.
+
+Sincerely,
+Krishna Gupta
+Generative AI Engineer
++91 93518 77084 | Krishna0211gupta@gmail.com | linkedin.com/in/Krisnag02

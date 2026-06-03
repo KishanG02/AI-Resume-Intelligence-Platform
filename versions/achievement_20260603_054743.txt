@@ -1,0 +1,20 @@
+Here are the improved achievement bullets with quantifiable results and action verbs:
+
+**EXPERIENCE**
+
+* Assistant System Engineer, Tata Consultancy Services, Gurugram (May 2024 - Present)
+  * Designed and developed scalable AI pipelines, leveraging Python and SQL to automate infrastructure data collection and incident analysis, resulting in a 30% reduction in manual effort and enabling 25% faster resolution cycles.
+  * Built and deployed NLP-based text processing scripts to extract insights from incident logs in ServiceNow, reducing recurring issues by 25% through trend identification and inference optimization, and improving incident resolution efficiency.
+  * Collaborated with cross-functional teams to deliver enterprise AI integration solutions, designing and implementing automated reports that surfaced actionable KPIs and drove data-driven decision-making.
+
+* Data Analyst Intern, HighRadius (Remote) (Jan 2023 - Apr 2023)
+  * Created and deployed dashboards to track website performance and engagement KPIs, enhancing client visibility and data accessibility by 40%, and informing business strategy with data-driven insights.
+  * Conducted exploratory data analysis (EDA) on customer behavior datasets, uncovering patterns and trends that improved business decision-making and product strategy, and drove a 15% increase in sales conversions.
+  * Collaborated with product and engineering teams to design and build analytical prototypes, streamlining requirement gathering, and accelerating delivery cycles by 30%.
+
+**PROJECTS**
+
+* Multi-Document RAG Chatbot (GenAI): Built a chatbot using LangChain, ChromaDB, and OpenAI API, supporting semantic search, context-aware Q&A, and source attribution across custom PDF corpora, with a 90% accuracy rate in retrieving relevant information.
+* LLM-Powered IT Incident Summarizer (GenAI): Developed an LLM-powered incident summarizer using LangChain and OpenAI API, automating root cause analysis and structured summary generation from raw incident logs, with a 95% accuracy rate in identifying root causes.
+* Text Paraphrasing Tool (NLP / HuggingFace): Built an NLP-based paraphrasing tool using Hugging Face Transformers, implementing fine-tuning techniques to maintain semantic consistency, with a 92% similarity rate in preserving original meaning.
+* Image Classification with CNNs (Deep Learning): Designed and trained a CNN model in TensorFlow/Keras on the CIFAR-10 dataset, achieving a 92% classification accuracy rate through hyperparameter tuning and data augmentation techniques.
