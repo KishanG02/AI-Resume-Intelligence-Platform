@@ -433,10 +433,11 @@ if uploaded_file:
                 file_name="interview_questions.txt",
                 mime="text/plain"
             )
+            
             pdf_file = create_pdf(
-                    interview_questions,
-                    "interview_questions.pdf"
-                )
+                st.session_state.interview_questions,
+                "interview_questions.pdf"
+            )
 
             with open(pdf_file, "rb") as f:
 
