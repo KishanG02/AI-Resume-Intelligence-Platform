@@ -62,6 +62,9 @@ if "interview_questions" not in st.session_state:
 if "evaluation_report" not in st.session_state:
     st.session_state.evaluation_report = ""
 
+if "achievement_text" not in st.session_state:
+    st.session_state.achievement_text = ""
+
 with st.sidebar:
 
     st.title("🤖 AI Resume Intelligence")
@@ -218,7 +221,7 @@ if uploaded_file:
 
         st.subheader("🤖 AI Resume Rewriter")
 
-        if st.button("Rewrite Resume for ATS"):
+        if st.button("Rewrite Resume for ATS", key="rewrite_btn"):
 
             if not job_description.strip():
 
@@ -232,7 +235,7 @@ if uploaded_file:
                     "Optimizing Resume..."
                 ):
 
-                    improved_resume = rewrite_resume(
+                    st.session_state.improved_resume = rewrite_resume(
                         resume_text,
                         job_description
                     )
@@ -241,15 +244,15 @@ if uploaded_file:
                     "Resume Optimized Successfully"
                 )
 
-                st.text_area(
+                sst.text_area(
                     "Optimized Resume",
-                    improved_resume,
+                    st.session_state.improved_resume,
                     height=500
                 )
 
                 st.download_button(
                     label="Download Optimized Resume",
-                    data=improved_resume,
+                    data=st.session_state.improved_resume,
                     file_name="optimized_resume.txt",
                     mime="text/plain"
                 )
@@ -260,7 +263,7 @@ if uploaded_file:
 
         st.subheader("📈 Achievement Quantifier")
 
-        if st.button("Improve Achievement Statements"):
+        if st.button("Improve Achievement Statements", key="achievement_btn"):
 
             with st.spinner(
                 "Enhancing achievements..."
@@ -317,7 +320,7 @@ if uploaded_file:
 
         st.subheader("📄 AI Cover Letter Generator")
 
-        if st.button("Generate Cover Letter"):
+        if st.button("Generate Cover Letter",key="cover_btn"):
 
             if not job_description.strip():
 
@@ -385,7 +388,7 @@ if uploaded_file:
 
         st.subheader("🎤 AI Interview Question Generator")
 
-        if st.button("Generate Interview Questions"):
+        if st.button("Generate Interview Questions", key="interview_btn"):
 
             if not job_description.strip():
 
@@ -454,7 +457,7 @@ if uploaded_file:
 
         st.subheader("📊 Resume Evaluation Pipeline")
 
-        if st.button("Evaluate Resume"):
+        if st.button("Evaluate Resume",key="evaluation_btn"):
 
             if not job_description.strip():
 
@@ -503,9 +506,9 @@ if uploaded_file:
             )
 
             pdf_file = create_pdf(
-                    evaluation_report,
-                    "evaluation_report.pdf"
-                )
+                st.session_state.evaluation_report,
+                "evaluation_report.pdf"
+            )
 
             with open(pdf_file, "rb") as f:
 
