@@ -244,7 +244,7 @@ if uploaded_file:
                     "Resume Optimized Successfully"
                 )
 
-                sst.text_area(
+                st.text_area(
                     "Optimized Resume",
                     st.session_state.improved_resume,
                     height=500
